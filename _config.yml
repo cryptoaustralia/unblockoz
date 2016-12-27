@@ -33,4 +33,5 @@ exclude:
   - Gemfile.lock
   - [vendor]
   - LICENSE.md
+  - CONTRIBUTE.md
 google_analytics: UA-87384200-4
