@@ -1,16 +1,16 @@
 <!-- Facebook meta tags -->
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="UnblockOz" />
-<meta property="og:description" content="Evade Internet censorship in Australia. Unblock websites with Tor, DNS and VPN services." />
+<meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:site_name" content="UnblockOz" />
 <meta property="og:image" content="{{ site.url }}/assets/img/facebook.jpg" />
 
 <!-- Twitter meta tags -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:description" content="Evade Internet censorship in Australia. Unblock websites with Tor, DNS and VPN." />
-<meta name="twitter:title" content="UnblockOz" />
+<meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description }}{% endif %}" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}" />
 <meta name="twitter:site" content="@CryptoAustralia" />
 <meta name="twitter:creator" content="@CryptoAustralia" />
 <meta name="twitter:image" content="{{ site.url }}/assets/img/twitter.jpg" />

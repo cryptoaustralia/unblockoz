@@ -13,10 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: UnblockOz - Evade Internet Censorship
+title: "UnblockOz: Fight Internet Censorship"
 email: hello@cryptoaustralia.org.au
-description: > # this means to ignore newlines until "baseurl:"
-  Evade Internet Censorship in Australia. Unblock websites with Tor, DNS and VPN services.
+description: >
+  Fight Internet censorship. Unblock websites with Tor,
+  DNS and VPN in Australia. Raise your voice.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://unblockoz.org"
 twitter_username: CryptoAustralia
