@@ -1,13 +1,246 @@
 ---
 layout: page
-title: "UnblockOz - Fight Censorship with VPN"
+title: "UnblockOz - Fight Internet Censorship with VPN"
+description: Using VPNs to access websites blocked by your ISP
 ---
 
 <div class="page-header">
-  <h1>Fight Censorship with Virtual Private Network (VPN)</h1>
+  <h2>Fight Censorship with Virtual Private Network (VPN)</h2>
 </div>
 
+<p>
+  Virtual Private Network (or VPN) is a service that encrypts your network
+  traffic between your laptop and a remote server on the Internet. As VPNs have
+  tunnelling capabilities, your Internet traffic remains hidden from your
+  Internet Service Provider. This makes VPNs a useful companion for evading
+  Internet censorship.
+</p>
+
+<p>
+  As VPN is a service, it needs to be operated by someone. It can be either
+  self-hosted or ran by a third-party. If you are a beginner, we advise you
+  to rely on a VPN provider with a user-friendly privacy policy.
+</p>
+
+<h3>
+  <a name="third-party" href="#third-party"><i class="fa fa-link" aria-hidden="true"></i></a>
+  Evading Censorship with Third-party VPNs
+  <div class="pull-right">
+    <small>
+      <span class="text-muted">
+        Difficulty:
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </span>
+    </small>
+  </div>
+</h3>
+
 <div class="alert alert-info" role="alert">
-  <p><strong>This is a placeholder. Please help us finish this article.</strong></p>
-  <p><a href="https://github.com/cryptoaustralia/unblockoz">Click here to visit our repo and submit a pull requets to add content to this page</a></p>
+  <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+  Third-party providers have certain visibility into the websites you are
+  visiting, just like your <abbr title="Internet Service Provider">ISP</abbr>.
+  Always make sure you are comfortable with their privacy policy and
+  log retention practices.
 </div>
+
+<dl class="dl-horizontal">
+  <dt>privacytools.io</dt>
+  <dd>
+    <p>
+      A community managed list of trusted VPN providers backed by <a href="https://www.reddit.com/r/privacytoolsIO/" target="_blank">Reddit</a>.
+      Their criteria includes things like no logging policy, residence outside the US and a sign-up process with as little personal details as possible.
+    </p>
+    <p>
+      <i class="fa fa-globe" aria-hidden="true"></i>
+      The latest list is available on <a href="https://www.privacytools.io/#vpn" target="_blank">privacytools.io <i class="fa fa-external-link" aria-hidden="true"></i></a>
+    </p>
+  </dd>
+
+  <dt>'That one <br>privacy guy' VPN<br>spreadsheet</dt>
+  <dd>
+    <p>
+      A community managed spreadsheet of third-party VPN providers with hundreds
+      of services on the list. The list scrutinises them by jurisdiction,
+      privacy and security practices, technical features and capabilities. If
+      you have plenty of time at your disposal o choose your preferred VPN
+      provider, this list is definitely a good start.
+    </p>
+    <p>
+      <i class="fa fa-globe" aria-hidden="true"></i>
+      The latest spreadsheet is available from
+      <a href="https://thatoneprivacysite.net/vpn-comparison-chart/" target="_blank">
+        That One Privacy Site
+        <i class="fa fa-external-link" aria-hidden="true"></i>
+      </a>
+    </p>
+  </dd>
+
+  <dt>TorrentFreak List</dt>
+  <dd>
+    <p>
+      TorrentFreak's annual research on VPN providers taking privacy and
+      anonimity seriously.
+    </p>
+    <p>
+      <i class="fa fa-globe" aria-hidden="true"></i>
+      Access the <a href="https://torrentfreak.com/vpn-anonymous-review-160220/" target="_blank">annual report <i class="fa fa-external-link" aria-hidden="true"></i></a> from here
+    </p>
+  </dd>
+
+  <dt>Bitmask</dt>
+  <dd>
+    <p>
+      Bitmask is an open source application to provide easy and secure encrypted
+      communication. With Bitmask VPN, all your traffic is securely routed
+      through the provider before it is decrypted and sent on to the
+      open Internet.
+    </p>
+    <p>
+      The development of Bitmask is supported by <a href="https://riseup.net/">Riseup</a>,
+      which advocates for the freedom of expression and such since 1999. Be
+      careful, however, because the actual VPN service is provided by
+      third-parties.
+    <p>
+      <i class="fa fa-globe" aria-hidden="true"></i>
+      <a href="https://bitmask.net/" target="_blank">
+        Download Bitmask
+        <i class="fa fa-external-link" aria-hidden="true"></i>
+      </a>
+    </p>
+  </dd>
+</dl>
+
+<h3>
+  <a name="self-hosted" href="#self-hosted"><i class="fa fa-link" aria-hidden="true"></i></a>
+  Evading Censorship with Self-hosted VPNs
+  <div class="pull-right">
+    <small>
+      <span class="text-muted">
+        Difficulty:
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </span>
+    </small>
+  </div>
+</h3>
+
+<p>
+  You may want to run your own VPN service to have more control over security,
+  logging and long retention practices.
+</p>
+
+<ul>
+  <li>
+    <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04" target="_blank">
+      How To Set Up an OpenVPN Server on Ubuntu 16.04
+      <i class="fa fa-external-link" aria-hidden="true"></i>
+    </a>
+    &mdash; DigitalOcean
+  </li>
+
+  <li>
+    <a href="https://raymii.org/s/tutorials/IPSEC_vpn_with_Ubuntu_16.04.html" target="_blank">
+      IPSEC VPN on Ubuntu 16.04 with StrongSwan
+      <i class="fa fa-external-link" aria-hidden="true"></i>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://github.com/trailofbits/algo" target="_blank">
+      trailofbits/algo
+      <i class="fa fa-external-link" aria-hidden="true"></i>
+    </a>
+    &mdash; 1-click IPSEC VPN in the Cloud. A set of Ansible scripts that simplifies
+    the setup of a personal IPSEC VPN
+  </li>
+
+  <li>
+    <a href="https://github.com/jlund/streisand" target="_blank">
+      jlund/streisand
+      <i class="fa fa-external-link" aria-hidden="true"></i>
+    </a>
+    &mdash; Streisand sets up a new server running L2TP/IPsec, OpenConnect, OpenSSH,
+    OpenVPN, Shadowsocks, sslh, Stunnel, and a Tor bridge
+  </li>
+
+  <li>
+    <a href="https://github.com/philpl/setup-strong-strongswan" target="_blank">
+      philpl/setup-strong-strongswan
+      <i class="fa fa-external-link" aria-hidden="true"></i>
+    </a>
+    &mdash; A script that installs and configures a StrongSwan VPN Server on Ubuntu
+    and Debian
+  </li>
+
+  <li>
+    <a href="https://www.softether.org/" target="_blank">
+      SoftEther
+      <i class="fa fa-external-link" aria-hidden="true"></i>
+    </a>
+    &mdash; SoftEther VPN is an open-source server application which supports SSL-VPN,
+    OpenVPN, L2TP, EtherIP, L2TPv3 and IPsec - all in a single VPN software
+  </li>
+</ul>
+
+<div class="alert alert-warning" role="alert">
+  <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+  Be careful when choosing a hosting provider running your VPN service. Firstly,
+  avoid OpenVZ virtualisation as this technique is known to have problems with
+  IPSEC tunnels. Secondly, hosting providers may take snapshots of your servers
+  when presented with a warrant. Always check their privacy policy whenever
+  possible.
+</div>
+
+<h3>
+  <a name="blacklisted" href="#blacklisted"><i class="fa fa-link" aria-hidden="true"></i></a>
+  Non-recommended Services
+</h3>
+
+<div class="alert alert-danger" role="alert">
+  <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+  The following providers were proven to have dubious practices, therefore you
+  should avoid using them
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Hola</dt>
+  <dd>
+    <p>
+      Free VPN service that allows you to browse the web without censorship
+      or access Netflix from a different contry
+    </p>
+    <p>
+      Unfortunately, Hola sends the traffic of strangers through your Internet
+      connection. They sell this access to third parties, and don't care what
+      it is used for.
+    </p>
+    <p>
+      Read more on <a href="http://adios-hola.org/" target="_blank">adios-hola.org <i class="fa fa-external-link" aria-hidden="true"></i></a>
+    </p>
+  </dd>
+
+  <dt>Hide My Ass!</dt>
+  <dd>
+    <p>
+      A popular VPN provider that kept connection logs and helped the arrests of
+      Internet criminals hacking Sony Pictures in 2011.
+      Read more on <a href="http://www.theregister.co.uk/2011/09/26/hidemyass_lulzsec_controversy/" target="_blank">The Register <i class="fa fa-external-link" aria-hidden="true"></i></a> about the controversy
+    </p>
+  </dd>
+
+  <dt>proxy.sh</dt>
+  <dd>
+    <p>
+      This provider sniffed traffic to catch an alleged hacker.
+      Read more on <a href="https://torrentfreak.com/proxy-sh-vpn-provider-monitored-traffic-to-catch-hacker-130930/" target="_blank">TorrentFreak <i class="fa fa-external-link" aria-hidden="true"></i></a> about the case
+    </p>
+  </dd>
+
+</dl>
