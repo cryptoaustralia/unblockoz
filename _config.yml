@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "UnblockOz: Fight Internet Censorship"
+title: "UnblockOz: Reclaim your Internet"
 email: hello@cryptoaustralia.org.au
 description: >
-  Fight Internet censorship. Unblock websites with Tor,
-  DNS and VPN in Australia. Raise your voice.
+  Reclaim your Internet in Australia. Unblock websites with Tor,
+  DNS and VPN.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://unblockoz.org"
 twitter_username: CryptoAustralia
